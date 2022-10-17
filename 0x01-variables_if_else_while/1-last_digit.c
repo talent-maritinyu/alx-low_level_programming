@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main print the last digit of the number stored in the variable n
+ * main - Print the last digit of the number stored in the variable n
  *
- * return: 0 success run and a certain value if not success
+ * Return: Always 0 (success)
  */
 int main(void)
 {
