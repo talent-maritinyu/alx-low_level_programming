@@ -2,7 +2,7 @@
 /**
  * main - Print all base tem numbers from 0
  *
- * Retrun: Always 0
+ * Retrun: Always 0 (success)
  */
 int main(void)
 {
