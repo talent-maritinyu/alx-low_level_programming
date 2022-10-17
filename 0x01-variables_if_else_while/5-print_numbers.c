@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Print all base tem numbers from 0
+ * main - Print all base tem numbers from zero
  *
  * Retrun: Always 0 (success)
  */
