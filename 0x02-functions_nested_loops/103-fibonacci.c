@@ -6,18 +6,21 @@
  */
 int main(void)
 {
-	int i, j, k, l, sum = 0;
+	int i;
+	unsigned long int j, k, l, sum;
 
-	i = 1;
 	j = 1;
-	k = i + j;
-	l = 4000000;
+	k = 2;
+	sum = 0;
 
-	While (k < 4000000)
-		sum = sum + k;
-	i = j + k;
-	j = i +k;
-	k = i + j;
-	printf("%d\n", sum);
+	for (i = 1; i <= 33; i++)
+	{
+		if (j < 4000000 && (j % 2) == 0)
+			sum + = j;
+		l = j + k;
+		j = k;
+		k = l;
+	}
+	printf("%lu\n", sum);
 	return (0);
 }
