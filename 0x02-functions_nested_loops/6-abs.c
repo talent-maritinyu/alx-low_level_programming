@@ -4,7 +4,9 @@
  *@r: the integer to check
  * Return: Absolute value r
  */
-int _abs(int *r);
+int _abs(int *r)
 {
-	 return (*r < 0 ? -*r: *r);
+	return *a < 0 ? -*a: *a;
+
+	 return (r);
 }       
