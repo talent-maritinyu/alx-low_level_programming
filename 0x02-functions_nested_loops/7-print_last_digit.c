@@ -4,7 +4,7 @@
  * @l: int to scan last degit    
  * Return: the value of the last digit 
  */
-int print_last_digit(int l); 
+int print_last_digit(int l)
 {
 	int n;   
 
