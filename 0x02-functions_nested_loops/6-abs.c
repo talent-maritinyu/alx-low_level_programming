@@ -7,10 +7,8 @@
 int _abs(int r)
 {
 	if (r < 0)
-	{
-		r = (-1) * r;
-	}
-	_putchar("%d ", r);
+		return -r;
+	else 
 
-	 return (r);
+	 return r;
 }       
