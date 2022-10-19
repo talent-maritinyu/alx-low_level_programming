@@ -18,6 +18,5 @@ void print_to_98(int n)
 		if (j !=98)
 			_putchar(',');
 	_putchar(' ');
-	_putchar('\n')
-
+	_putchar('\n');
 }
