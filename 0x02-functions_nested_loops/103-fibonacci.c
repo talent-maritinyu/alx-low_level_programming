@@ -16,11 +16,11 @@ int main(void)
 	for (i = 1; i <= 33; i++)
 	{
 		if (j < 4000000 && (j % 2) == 0)
-			sum + = j;
+			sum += j;
 		l = j + k;
 		j = k;
 		k = l;
 	}
 	printf("%lu\n", sum);
 	return (0);
-}
+i}
