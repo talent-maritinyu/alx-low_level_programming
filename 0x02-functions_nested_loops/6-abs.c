@@ -4,19 +4,7 @@
  *@r: the integer to check
  * Return: Absolute value r
  */
-int _abs(int);
+int _abs(int *r);
 {
-	int r ;
-
-	r = 0;
-
-	if (r < 0)
-	{
-		_putchar('absValue = " -%d\n" ', r);
-	}
-	else
-	{
-		_putchar('absValue = " %d\n" ', r);
-	}
-       return (0);
+	 return *r < 0 ? -*r: *r;
 }       
