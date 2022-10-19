@@ -13,7 +13,7 @@ int main(void)
 	for (count = 0; count < 50; count++)
 	{
 		sum = f1 + f2;
-		printf("%zu", sum);
+		printf("%lu", sum);
 
 		f1 = f2;
 		f2 = sum;
@@ -24,5 +24,4 @@ int main(void)
 			printf(", ");
 	}
 	return (0);
-}
-		
+}		
