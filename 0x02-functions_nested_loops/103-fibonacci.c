@@ -13,7 +13,7 @@ int main(void)
 	k = i + j;
 	l = 4000000;
 
-	While (k < l)
+	While (k < 4000000)
 		sum = sum + k;
 	i = j + k;
 	j = i +k;
@@ -21,4 +21,3 @@ int main(void)
 	printf("\n", sum);
 	return (0);
 }
-
