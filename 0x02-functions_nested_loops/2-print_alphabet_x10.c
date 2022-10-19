@@ -1,9 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - Entry point
- *
- * Description: Creat a function that prints the alphabet,
- * 10 times in lowercase, followed by a new line
+ * print_alphabet_x10 - print ten times the alphabet in small letters
  *
  */
 void print_alphabet_x10(void)
@@ -16,8 +13,8 @@ void print_alphabet_x10(void)
 
 		c = 'a';
 	while (c <= 'z')
-		c++;
-	_putchar(c);
+		_putchar(c);
+	c++;
 	_putchar('\n');
-	i++;
+	i++
 }
