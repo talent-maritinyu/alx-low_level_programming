@@ -18,6 +18,6 @@ int main(void)
 	i = j + k;
 	j = i +k;
 	k = i + j;
-	printf("\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
