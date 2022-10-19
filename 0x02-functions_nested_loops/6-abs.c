@@ -12,11 +12,11 @@ int _abs(int);
 
 	if (r < 0)
 	{
-		_putchar('absValue =' " -%d\n", r);
+		_putchar('absValue = " -%d\n" ', r);
 	}
 	else
 	{
-		_putchar('absValue =' " %d\n", r);
+		_putchar('absValue = " %d\n" ', r);
 	}
        return (0);
 }       
