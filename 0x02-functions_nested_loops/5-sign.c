@@ -16,10 +16,11 @@ int print_sign(int n)
 	if (n > num)
 		_putchar('+');
 	return (1);
-	else
-	       	if (n == num)
+
+	else if (n == num)
 		_putchar('0');
 	return (0);
+
 	else
 		_putchar('-');
 	return (-1);
