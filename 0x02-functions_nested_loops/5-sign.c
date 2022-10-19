@@ -9,14 +9,15 @@
  */
 int print_sign(int n)
 {
-	int n;
+	int num;
 
-	n = 0;
+	num = 0;
 
-	if (n > 0)
+	if (n > num)
 		_putchar('+');
 	return (1);
-	else if (n == 0)
+	else
+	       	if (n == num)
 		_putchar('0');
 	return (0);
 	else
