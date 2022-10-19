@@ -6,12 +6,12 @@
  */
 int _islower(int c)
 {
-	char c;
+	char alph;
 
-	c = 'a';
+	alph = 'a';
 
-	for (c ='a'; c <= 'z'; z++)
-		if (c > 'a' && c <= 'z')
+	for (alph ='a'; alph <= 'z'; 'z'++)
+		if (alph > 'a' && alph <= 'z')
 			return (1);
 		else
 			return (0);
