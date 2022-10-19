@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point  print sum of  
- * multiples of 3 or 5 below 1024
- * Return: Always 0
+ * main - print sum of multiples of 3 and 5
  */
 int main(void)
 {
