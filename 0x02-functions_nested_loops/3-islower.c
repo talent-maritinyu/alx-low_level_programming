@@ -10,8 +10,8 @@ int _islower(int c)
 
 	alph = 'a';
 
-	for (alph ='a'; alph <= 'z'; 'z'++)
-		if (alph > 'a' && alph <= 'z')
+	for (alph ='a'; alph <= 'z'; alph++)
+		if (c > 'a' && c <= 'z')
 			return (1);
 		else
 			return (0);
