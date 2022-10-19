@@ -10,13 +10,14 @@ int main(void)
 
 	i = 1;
 	j = 1;
+	k = i + j;
 	l = 4000000;
 
-	while (j < l)
-		if (j % 2 ==0)
-			sum = sum +j;
+	While (k < l)
+		sum = sum + k;
+	i = j + k;
+	j = i +k;
 	k = i + j;
-	i, j = j, k;
 	printf("\n", sum);
 	return (0);
 }
