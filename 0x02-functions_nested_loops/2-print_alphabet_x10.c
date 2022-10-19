@@ -5,7 +5,6 @@
  * Description: Creat a function that prints the alphabet,
  * 10 times in lowercase, followed by a new line
  *
- * Return: Success
  */
 void print_alphabet_x10(void)
 {
