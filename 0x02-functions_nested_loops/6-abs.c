@@ -4,9 +4,13 @@
  *@r: the integer to check
  * Return: Absolute value r
  */
-int _abs(int *r)
+int _abs(int r)
 {
-	return *a < 0 ? -*a: *a;
+	if (r < 0)
+	{
+		r = (-1) * r;
+	}
+	_putchar("%d ", r);
 
 	 return (r);
 }       
