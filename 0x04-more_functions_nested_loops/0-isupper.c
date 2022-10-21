@@ -7,7 +7,7 @@
 
 int _isupper(int c)
 {
-	if (c >= 'A' && c<= 'Z')
+	for (c >= 'A' && c<= 'Z')
 		printf("%c is uppercase\n", c);
 	retun (c);
 }
