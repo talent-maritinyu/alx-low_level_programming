@@ -8,16 +8,15 @@
 
 void rev_string(char *s)
 {
-	int count = 0, i, j;
+	int count = 0, i;
+	char str = s[0];
 
 	while (count >= 0)
 	{
 		if (s[count] == '\0')
-			break;
-		count++;
+			count++;
 	}
-	str = s;
-
+	
 	for (i = 0; i < count; i++)
 	{
 		count--;
