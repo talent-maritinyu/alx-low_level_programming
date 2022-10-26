@@ -17,13 +17,16 @@ int main(void)
 	srand((unsigned int) time(&t));
 
 	while (count < 2772)
-		break;
-	i = rand() % 128;
-	if ((count + i) > 2772)
-		break;
-	count = count + i;
-	printf("%c", i);
+	{
 
+		i = rand() % 128;
+		if ((count + i) > 2772)
+
+			break;
+
+		count = count + i;
+		printf("%c", i);
+	}
 	printf("%c\n", (2772 - count));
 	return (0);
 }
