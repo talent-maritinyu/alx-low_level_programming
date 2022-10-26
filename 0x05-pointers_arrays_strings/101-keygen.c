@@ -12,7 +12,6 @@
 int main(void) 
 {
 	int count = 0;
-
 	srand(time(NULL));
 	char randChar;
 
