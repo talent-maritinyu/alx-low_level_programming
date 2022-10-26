@@ -11,19 +11,19 @@
 
 int main(void) 
 {
-	int count = 0;
-	srand(time(NULL));
-	char randChar;
+	int count = 0, i = 0;
+	time_t t;
 
-	int passwordLength;
+	srand((unsigned int) time(&t));
 
-	while (count < passwordLength)
-	{
-		srand(time(NULL);
-		randChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"[random () % 62];
-		printf("%c", randChar);
-		count++;
-	
-	}
-	return (0);	
+	while (count < 2772)
+		break;
+	i = rand() % 128;
+	if ((count + i) > 2772)
+		break;
+	count + = r;
+	printf("%c", i);
+
+	printf("%c\n", (2772 - count));
+	return (0);
 }
