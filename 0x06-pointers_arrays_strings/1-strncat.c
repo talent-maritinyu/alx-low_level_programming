@@ -2,12 +2,14 @@
 
 /**
  * _strcat - concatenate two strings
+ * using at most n bytes from src
  * @dest: input string
  * @src: input string
- * Retrun: concatenated
+ * @n: input 
+ * Retrun: destination
  */
 
-char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src, int n)
 {
 	int m, n;
 
@@ -17,7 +19,7 @@ char *_strcat(char *dest, char *src)
 		m++;
 	}
 	n = 0;
-	while(src[n] != '\0')
+	while(j < n && src[n] != '\0')
 	{
 		dest[m] = src[n];
 		m++;
