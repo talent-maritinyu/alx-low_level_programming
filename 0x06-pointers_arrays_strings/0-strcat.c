@@ -2,8 +2,8 @@
 
 /**
  * _strcat - concatenate two strings
- * @dest: copy from
- * @src: copy to
+ * @dest: input string
+ * @src: input string
  * Retrun: concatenated
  */
 
