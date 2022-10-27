@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * *_strcat - concatenates two strings
+ * _strcat - concatenate two strings
  * @dest: copy from
  * @src: copy to
+ * Retrun: concatenated
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int m, n;
 
@@ -15,11 +16,10 @@ char *_strcat(char *dest, char *src);
 	{
 		m++;
 	}
-
 	n = 0;
-	while (src[n] != '\0')
+	while(src[n] != '\0')
 	{
-		dest[m] = src[n];
+		dest[m] = src[j];
 		m++;
 		n++;
 	}
